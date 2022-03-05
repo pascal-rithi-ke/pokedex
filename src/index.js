@@ -18,8 +18,9 @@ const style_link = {
 ReactDOM.render(
   <BrowserRouter>
     <div className='navigation'>
-      <li><Link style={style_link} to="/">Pokedex</Link></li>
-      <li><Link style={style_link} to="/info">Info</Link></li>
+        <li><Link style={style_link} to="/">Pokedex</Link></li>
+          &nbsp;
+        <li><Link style={style_link} to="/info">Info</Link></li>
     </div>
     <Routes>
       <Route path='/' element={<App/>}></Route>

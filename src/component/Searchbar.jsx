@@ -9,7 +9,7 @@ class Searchbar extends React.Component {
       this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleChange(event) {
-        this.setState({value: event.target.value}); // get the value from input when it change
+      this.setState({value: event.target.value}); // get the value from input when it change
     }
     handleSubmit(event) {
       event.preventDefault(event);
